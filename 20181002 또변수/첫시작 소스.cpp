@@ -76,7 +76,6 @@ int main() {
 	//키보드에서 입력받는 방법
 	printf("정수를 입력하시오 : \n");
 	scanf("%d", &a);
-	
 	printf("입력받은 a = %d\n");
 
 	return 0;
