@@ -11,9 +11,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{C27BDB61-E80D-457F-82CC-6C00A9E1171A}</ProjectGuid>
+    <ProjectGuid>{2148955D-5053-44A8-92CE-917A7C5F8944}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>실험용</RootNamespace>
+    <RootNamespace>EX12</RootNamespace>
+    <ProjectName>HW 1 -2</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -76,7 +77,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="실험용ㅇㅇ.cpp" />
+    <ClCompile Include="1-2.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

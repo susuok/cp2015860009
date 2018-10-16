@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{DA381183-1D7C-4A1C-AD9C-C5358695FDC7}</ProjectGuid>
+    <ProjectGuid>{88EB8067-8251-4603-B99E-B7624DDEAB43}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>EX16</RootNamespace>
+    <RootNamespace>My20181016루프</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -76,7 +76,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ex1-6.cpp" />
+    <ClCompile Include="20161016 배운것(반복문).cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
