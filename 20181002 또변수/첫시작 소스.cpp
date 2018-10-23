@@ -78,5 +78,15 @@ int main() {
 	scanf("%d", &a);
 	printf("입력받은 a = %d\n", a);
 
+
+
+
+
+
+
+
+
+
+
 	return 0;
 }

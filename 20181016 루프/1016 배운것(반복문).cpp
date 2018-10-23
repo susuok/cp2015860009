@@ -52,7 +52,7 @@ int main () {
 			continue;
 		}
 
-		if(input%3 ==0)
+		if(input%3 == 0)
 			printf("입력한 정수%d는 3의 배수입니다\n", input);
 		else
 			printf("입력한 정수%d는 3의 배수가 아리마셍\n", input);
@@ -61,8 +61,8 @@ int main () {
 	//1에서 100까지의 정수의 합을 구하시오
 	/*int sum = 0, i=1;
 	while(i<=100) {
-		sum = sum+i;
-		i++;
+	sum = sum+i;
+	i++;
 	}
 	printf("the sum is %d\n", sum);*/
 
@@ -72,16 +72,6 @@ int main () {
 		sum += i++;
 	}
 	printf("the sum is %d\n", sum);
-
-
-
-
-
-
-
-
-
-
 
 
 
