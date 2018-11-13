@@ -14,7 +14,7 @@ void printNumber(int a, int b){
 int main(){
 	int a =87, b=455;
 	printNumber(a,b);
-	printNumber(-20,-100);
+	printNumber(-100,-20);
 
 	printf("end of program\n");
 

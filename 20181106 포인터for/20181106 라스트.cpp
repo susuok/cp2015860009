@@ -14,8 +14,9 @@ int main () {
 	//배열의 이름만 사용하면 그 배열 첫 요소의 포인터값이 된다.
 	ptr = a; // ==> ptr = &a[0];
 
-	printf("a[0]= %d\n",*ptr);
+	printf("a[0]= %d\n", *ptr);
 	printf("a[0]= %d\n", a[0]);
+	
 	//포인터변수 이름을 배열 이름으로 사용 할 수 있따.	
 	printf("a[0]= %d\n", ptr[0]);
 	printf("a[1]= %d\n", ptr[1]);

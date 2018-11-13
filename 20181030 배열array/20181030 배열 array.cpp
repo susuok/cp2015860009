@@ -3,7 +3,7 @@
 //입력 : 배열
 //출력 : 없음
 //부수효과 : 화면에 모든 요소를 출력
-// 배열로 함수만들기ㅇㅇ...
+//배열로 함수만들기ㅇㅇ...
 
 void printArray(int arr[], int length) {
 	int count = 0;
@@ -27,7 +27,7 @@ int main () {
 	//a[3] = 20000;
 	int a[4] = {2,20,200,2000}; //배열 초기화 방법★★★(구글링,PDF)
 
-	printArray(a,len); //배열을 매개변수로 (배열의 이름a, 뱅ㄹ의 길이 len)
+	printArray(a,len); //배열을 매개변수로 (배열의 이름a, 배열의 길이 len)
 	
 	printf("%d\n", a[100]);
 
