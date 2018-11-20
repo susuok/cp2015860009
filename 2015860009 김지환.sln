@@ -27,6 +27,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20181113 수업", "20181113
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20181113 선택정렬", "20181113 선택정렬\20181113 선택정렬.vcxproj", "{6A7B7143-A451-447F-9383-9F7703ABCA56}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20181120 삽입정렬", "20181120 삽입정렬\20181120 삽입정렬.vcxproj", "{82427913-F7B8-4D10-84E3-18957B0AAFF1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -167,6 +169,16 @@ Global
 		{6A7B7143-A451-447F-9383-9F7703ABCA56}.Release|Mixed Platforms.Build.0 = Release|Win32
 		{6A7B7143-A451-447F-9383-9F7703ABCA56}.Release|Win32.ActiveCfg = Release|Win32
 		{6A7B7143-A451-447F-9383-9F7703ABCA56}.Release|Win32.Build.0 = Release|Win32
+		{82427913-F7B8-4D10-84E3-18957B0AAFF1}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{82427913-F7B8-4D10-84E3-18957B0AAFF1}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{82427913-F7B8-4D10-84E3-18957B0AAFF1}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{82427913-F7B8-4D10-84E3-18957B0AAFF1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{82427913-F7B8-4D10-84E3-18957B0AAFF1}.Debug|Win32.Build.0 = Debug|Win32
+		{82427913-F7B8-4D10-84E3-18957B0AAFF1}.Release|Any CPU.ActiveCfg = Release|Win32
+		{82427913-F7B8-4D10-84E3-18957B0AAFF1}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{82427913-F7B8-4D10-84E3-18957B0AAFF1}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{82427913-F7B8-4D10-84E3-18957B0AAFF1}.Release|Win32.ActiveCfg = Release|Win32
+		{82427913-F7B8-4D10-84E3-18957B0AAFF1}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
