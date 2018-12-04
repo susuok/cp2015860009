@@ -16,37 +16,19 @@ typedef struct complex Complex; //자료형 "struct complex"를 앞으로 "Complex" 라�
 //출력 : 없음
 //부수효과 : 입력된 복소수가 켤레 복소수로 변환됨
 void convertToConjugate (Complex* ptr) {
-	ptr-> imag = -1 * ptr->imag;
+	ptr -> imag = -1 * ptr->imag;
 }
 
 // 함수 returnConjugate()
 //입력 : 복소수 포인터
 //출력 : 복소수 변수
 //부수효과 : 없음
-
 Complex returnConjugate(Complex *ptr){
 	Complex temp;
 	temp.real = ptr-> real;
 	temp.imag =  -1 * ptr-> imag;
-	return temp;
+	return temp; //&temp가 아니라 temp 겠져? 당연히
 }
-
-
-//Complex* returnConjugate(Complex *ptr){
-//	Complex temp;
-//	temp.real = ptr-> real;
-//	temp.imag =  -1 * ptr-> imag;
-//	return &temp;
-//}
-
-//요녀석의 정체는 무엇인가.
-
-
-
-
-
-
-
 
 //함수 printComplex()
 //입력 : 복소수
@@ -57,11 +39,10 @@ void printComplex (Complex* ptr) { //모든 경우 구조체의 포인터를 매개변수로 전달
 	printf("%f + j%f\n", ptr -> real, ptr -> imag);
 }
 
-
 //데이터 타입의 별칭 선언
 typedef int myintType; // 자료형 "int"를 앞으로 "myintType" 라고도 부르겠드아.
+
 int main () {
-	myintType count = 10; // ==> int count = 10;
 	//구조체 변수 선언
 	struct complex a;
 	Complex b;
@@ -69,12 +50,6 @@ int main () {
 	a.imag = 20;
 	b.real = 15;
 	b.imag = 16;
-
-	
-
-	printf("%f + j%f\n", a.real, a.imag);
-	printf("%f + j%f\n", b.real, b.imag);
-	
 
 	//구조체 포인터 변수 선언
 	//대부분 구조체는 포인터 변수를 사용하여 접근한다.
@@ -89,8 +64,6 @@ int main () {
 	b = returnConjugate(&a);
 	printComplex(&b);
 
-
 	return 0;
 }
-
 //복습하즈아 ★★★ 다음시간에 연관된거하는데 동적구조? 예습.
