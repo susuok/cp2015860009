@@ -1,8 +1,9 @@
-﻿빌드 시작: 2018-12-04 오후 5:53:56
+﻿빌드 시작: 2018-12-11 오후 4:04:22
      1>2 노드의 "C:\Users\지환\cp2015860009\20181204 linked list\20181204 linked list.vcxproj" 프로젝트(Build 대상)입니다.
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt "20181204 linked list.cpp"
          20181204 linked list.cpp
+     1>c:\users\지환\cp2015860009\20181204 linked list\20181204 linked list.cpp(74): warning C4715: 'returnTail' : 모든 제어 경로에서 값을 반환하지는 않습니다.
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\지환\cp2015860009\Debug\20181204 linked list.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\지환\cp2015860009\Debug\20181204 linked list.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\지환\cp2015860009\Debug\20181204 linked list.lib" /MACHINE:X86 "Debug\20181204 linked list.obj"
          20181204 linked list.vcxproj -> C:\Users\지환\cp2015860009\Debug\20181204 linked list.exe
@@ -10,4 +11,4 @@
 
 빌드했습니다.
 
-경과 시간: 00:00:00.61
+경과 시간: 00:00:00.56

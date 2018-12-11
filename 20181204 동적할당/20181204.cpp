@@ -66,5 +66,6 @@ int main() {
    ptr->real = 100;//구조체 포인터 변수의 멤버변수 접근방법 ==> 구조체 변수이름->멤버변수이름
    ptr->imag = 200;
     //printComplex(ptr);
+
 return 0;
 }	
